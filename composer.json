@@ -1,0 +1,25 @@
+{
+  "name": "swf2vid/swf2vid",
+  "description": "Swf2Vid: Swf to video",
+  "keywords": [
+    "framework",
+    "swf2vid",
+    "swf to vid"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "San Kumar",
+      "email": "dev@minutephp.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "guzzlehttp/guzzle": "~5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Api\\": "api/"
+    }
+  }
+}
